@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Firebase Realtime Database</title>
+    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-database.js"></script>
+</head>
+<body>
+    <h1>Firebase Realtime Database Integration</h1>
+    <div id="data"></div>
+    <script src="app.js"></script>
+</body>
+</html>
+<input type="text" id="username" placeholder="Enter username">
+<button onclick="saveData()">Save</button>
+
+<h2>Users</h2>
+<ul id="userList"></ul>
+
+<input type="text" id="usernameUpdate" placeholder="Username to update">
+<button onclick="updateData()">Update</button>
+
+<input type="text" id="usernameDelete" placeholder="Username to delete">
+<button onclick="deleteData()">Delete</button>
